@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import { BrowserRouter as Router } from "react-router-dom";
 import axios from "axios";
 
-axios.defaults.baseURL = "http://localhost:8000"; // Backend URL
+axios.defaults.baseURL = "https://tasktracker-s4g5.onrender.com"; // Backend URL
 axios.defaults.withCredentials = true; // Send cookies with requests
 
 createRoot(document.getElementById("root")).render(
