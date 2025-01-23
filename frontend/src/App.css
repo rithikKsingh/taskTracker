@@ -1,0 +1,159 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* General button styles */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 5px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Task Tracker Page */
+.home-container {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.logout-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.task-input-container {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.task-input {
+  width: 70%;
+  padding: 8px;
+  border-radius: 5px;
+  color: #6c757d;
+  border: 1px solid #ccc;
+}
+
+.add-task-btn {
+  background-color: #4caf50;
+  color: white;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px 0;
+  color: black;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Auth Page */
+.auth-container {
+  text-align: center;
+  width: 300px;
+  margin: auto 40vw;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.auth-input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.auth-submit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.switch-btn {
+  background-color: #6c757d;
+  color: white;
+}
+
+.auth-message {
+  color: red;
+  margin-top: 10px;
+}
