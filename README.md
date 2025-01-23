@@ -68,7 +68,7 @@ Ensure you have the following installed:
 ---
 
 ## 🌟 Contributions
-This project is meant for learning purposes. Contributions are welcome but not required. Feel free to fork and explore the code to extend its functionality.
+This project is meant for learning purposes. Contributions are welcome. Feel free to fork and explore the code to extend its functionality.
 
 ---
 
