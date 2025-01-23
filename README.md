@@ -1,7 +1,3 @@
-Here’s a suggested README for your GitHub repository:
-
----
-
 # Task Tracker
 
 A simple Task Tracker web application developed as a **basic project** with the primary focus on learning deployment. The application provides a minimalistic platform for users to create, update, and delete tasks.
